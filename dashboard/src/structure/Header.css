@@ -1,0 +1,31 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;  /* Centers the list items horizontally */
+  }
+  
+  header nav ul li {
+    margin-right: 15px;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;  /* Remove margin on the last list item */
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

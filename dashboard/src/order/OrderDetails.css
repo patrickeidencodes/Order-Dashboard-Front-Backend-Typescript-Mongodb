@@ -1,0 +1,43 @@
+.order-details {
+    background: #b06969;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(20% - 10px); /* 20% der Breite minus Abstand */
+    box-sizing: border-box; /* Beinhaltet Padding und Border in der Breite */
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fff;
+    font-size: 1.5em;
+}
+
+.order-details .order-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.order-details .order-row p {
+    margin: 0 10px;
+}
+
+.order-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.order-details a:hover {
+    text-decoration: underline;
+}
+
+.order-details button {
+    margin: 10px;
+    width: 100px;
+}
+
+  
+.button-row {
+    display: flex;
+    gap: 10px; /* Optional: Fügt einen Abstand zwischen den Buttons hinzu */
+}

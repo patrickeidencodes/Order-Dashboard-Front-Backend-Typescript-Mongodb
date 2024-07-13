@@ -1,0 +1,60 @@
+/*
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button-list button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-list button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px;
+}
+*/
+
+.user-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-page ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Explizit die Flex-Richtung als Zeile */
+  flex-wrap: wrap;
+  gap: 10px; /* Abstand zwischen den Elementen */
+  max-width: 80%; /* Breite des Containers */
+  max-width: 1200px; /* Maximale Breite des Containers */
+  justify-content: center; /* Zentriert den Container horizontal */
+  margin: 20px;
+}
+
+.user-page ul li {
+  width: 80%;
+  margin: 10 auto;
+  margin-bottom: 10px;
+}
+
+button{
+  margin-bottom: 50px;
+}
+
+
